@@ -26,6 +26,21 @@ My first trading pipeline had an excellent backtest that was **wrong**: a date b
 
 - 💻 Showcase: https://github.com/andsalazar/quant-rebuild-showcase
 
+## 📄 Research papers — three working papers on SSRN · *not peer reviewed*
+
+Three working papers, each posted to SSRN as a preprint. None is peer reviewed.
+
+**Economics · March 2026**
+
+- **The Distributional Consequences of Federal Fiscal Policy, FY2000–FY2025: A Quarter-Century of Structural Shift and the 2025 Inflection Point** — an experiment to see how close an LLM-driven workflow could get to a genuinely *publishable* research paper. The result is a distributional analysis of 26 fiscal years of U.S. federal budget data, using structural-break tests to separate long-run trends from genuine policy discontinuities, with an open replication package. [📄 SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6285038) · [repo](https://github.com/andsalazar/FederalBudgetAnalysis)
+
+**Physics · September 2026**
+
+Two papers on one question in pilot-wave theory: if a particle is modeled as a localized lump of a nonlinear wave, what makes that lump travel at the velocity its pilot wave assigns? Researched and written with AI tools under my direction; the questions, direction and final judgment are mine.
+
+- **Guidance Selection in Localized-Wave Theories: State-space Criteria and the Asymptotics of Phase Locking** — the theory. Being localized does not by itself select that velocity. The paper sets out what else a model must supply and analyzes phase locking as one way to supply it. [📄 SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7418038)
+- **Dynamical velocity selection by a zeroth-order phase lock: numerical tests in one dimension** — the test. In one-dimensional simulations a phase-locked soliton does settle onto the pilot wave's velocity, within a limited range of detuning. The exactly matched case usually taken as the definition of phase harmony sits at the edge of that range, where the carrier is not captured, and the fully variational form of the lock selects no velocity at all. [📄 SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7452178)
+
 ## 🛰️ The Entity — a voice AI that answers for my portfolio · *private, access on request*
 
 My portfolio has an AI presence on it: a shader orb that follows the cursor, answers questions about my work and speaks its answers. It can say **only what is written in one record I maintain**, and it says so when the answer isn't there. A **56-question gate** runs before every deploy (grounding, privacy, refusals, prompt injection), a guard on the reply stream blocks prompt leaks, and the site sits behind expiring per-recipient access codes. Measuring where the lag was cut the time to the first spoken word from **2.9s to 1.2s**, and the write-up lists what didn't help as well as what did.
@@ -59,7 +74,6 @@ A concept album released as **American Horse Pirate**: 13 tracks, 67 minutes, **
 ## 🧪 Other work & experiments
 
 - **Quant trading pipeline (first attempt, archived)** — the quantitative project that kicked off this whole build arc. Its headline backtest did not hold up, and the README now opens with the correction. [repo →](https://github.com/andsalazar/quant-trading-pipeline)
-- **AI-assisted economics paper** — an experiment to see how close an LLM-driven workflow could get to a genuinely *publishable* research paper. The result is a working paper on U.S. federal budget analysis, posted on SSRN. [📄 SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6285038) · [repo](https://github.com/andsalazar/FederalBudgetAnalysis)
 - **Episodic animation (parked):** parked when the tooling wasn't yet good enough to clear the bar. It came back as Torn Pages.
 
 ## 🛠️ Tools I reach for
