@@ -35,9 +35,15 @@ Can one model **read another model's weights**, and can a tiny adapter make a la
 - 📄 Reading weights: https://github.com/andsalazar/model-training/blob/main/docs/stage8-reading-weights.md
 - 📄 The adapter result: https://github.com/andsalazar/model-training/blob/main/docs/stage7-v4-decide.md
 
+## 📉 Quant rebuild — a trading system rebuilt to catch its own mistakes · *paper trading*
+
+My first trading pipeline had an excellent backtest that was **wrong**: a date bug had taught the model the day of the week, and it lost money live. The rebuild is designed so a result like that can't pass quietly — data checks that gate every trade, a **locked holdout used once**, every trial counted, and paper trading compared with its own backtest every day. It is built by a team of AI agents with a read-only reviewer and a guard that keeps them away from the real account. So far **nothing has beaten buying and holding SPY**, and the write-up says so.
+
+- 💻 Showcase: https://github.com/andsalazar/quant-rebuild-showcase
+
 ## 🧪 Other work & experiments
 
-- **Quant trading pipeline** — the quantitative project that kicked off this whole build arc. [repo →](https://github.com/andsalazar/quant-trading-pipeline)
+- **Quant trading pipeline (first attempt, archived)** — the quantitative project that kicked off this whole build arc. Its headline backtest did not hold up, and the README now opens with the correction. [repo →](https://github.com/andsalazar/quant-trading-pipeline)
 - **AI-assisted economics paper** — an experiment to see how close an LLM-driven workflow could get to a genuinely *publishable* research paper. The result is a working paper on U.S. federal budget analysis, posted on SSRN. [📄 SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6285038) · [repo](https://github.com/andsalazar/FederalBudgetAnalysis)
 - **Generative explorations (paused):** full album music generation — parked when the tooling wasn't yet good enough to clear the bar. Episodic animation was parked for the same reason and came back as Torn Pages.
 
