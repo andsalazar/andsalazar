@@ -2,7 +2,7 @@
 
 I build at the edge of what AI-assisted development can actually **ship** — probing how far modern tools can take an ambitious idea across very different domains, then turning the ones that work into real products.
 
-That curiosity has run from **quantitative pipelines** → **original research** → a **production consumer app** → a **playable game** → a **one-shot AI film studio** — with a few deliberate dead ends along the way that taught me where the frontier really is.
+That curiosity has run from **quantitative pipelines** → **original research** → a **production consumer app** → a **released album** → a **playable game** → a **one-shot AI film studio** — with a few deliberate dead ends along the way that taught me where the frontier really is.
 
 ## 🚀 Field Notes — Study Guide · *live on the App Store*
 
@@ -27,6 +27,14 @@ An isekai action RPG where power is **debt**: skills and gear are loans, interes
 - 🎮 Play in the browser: https://ascendant-rosy.vercel.app
 - 💻 Showcase: https://github.com/andsalazar/ascendant-demo
 
+## 🎸 The Commons Machine — a 13-track concept album · *live on streaming*
+
+A concept album released as **American Horse Pirate**: 13 tracks, 67 minutes, **one labor fight per song**, from the 1877 railroad strike to the AI era. It shipped on the **third design**. The first, a dub-punk album with a sung lead and a spoken-word narrator, was built with ElevenLabs and FFmpeg through twelve rounds of auditions and parked in July when the tracks didn't clear the bar. In September one song tested as fast punk worked, so all fourteen were rewritten with the narrator cut and the citations moved to the liner notes. The released album, re-scoped to start in 1877, was generated in **Suno**. It was made end to end with AI tools; the concept, direction and final selection are mine.
+
+- 🎧 Spotify: https://open.spotify.com/album/0t4iJzWp6TrZTOfvFZEFEl
+- 🍎 Apple Music: https://music.apple.com/us/album/the-commons-machine/6809263498
+- 💻 Showcase: https://github.com/andsalazar/commons-machine-showcase
+
 ## 🔬 Weight-Space Programming — a replication, and what didn't extend
 
 Can one model **read another model's weights**, and can a tiny adapter make a large video model faster? Two published claims, tested on rented GPUs. **One repeated:** given the 23,824 raw weights of a small diffusion model and no tools, GPT-6 Astra named what the model draws — on the paper's networks, on fresh ones trained for the test, and on a shape the paper never used — and declined to guess on a shuffled control. Four cheaper models could not. **One didn't extend:** a 313k-parameter adapter on **Ovi**, an 11.66B video + audio model, was no faster at equal quality across 210 clips. Designs and scoring rules were pushed **before** the runs, the quoted numbers are recomputed from committed evidence by the test suite, and every early result that failed re-measurement is still in the repo with a correction banner.
@@ -45,14 +53,15 @@ My first trading pipeline had an excellent backtest that was **wrong**: a date b
 
 - **Quant trading pipeline (first attempt, archived)** — the quantitative project that kicked off this whole build arc. Its headline backtest did not hold up, and the README now opens with the correction. [repo →](https://github.com/andsalazar/quant-trading-pipeline)
 - **AI-assisted economics paper** — an experiment to see how close an LLM-driven workflow could get to a genuinely *publishable* research paper. The result is a working paper on U.S. federal budget analysis, posted on SSRN. [📄 SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6285038) · [repo](https://github.com/andsalazar/FederalBudgetAnalysis)
-- **Generative explorations (paused):** full album music generation — parked when the tooling wasn't yet good enough to clear the bar. Episodic animation was parked for the same reason and came back as Torn Pages.
+- **Episodic animation (parked):** parked when the tooling wasn't yet good enough to clear the bar. It came back as Torn Pages.
 
 ## 🛠️ Tools I reach for
 
-`TypeScript` · `React / React Native (Expo)` · `Next.js` · `Babylon.js` · `Three.js` · `Node` · `Supabase / Postgres` · `Vercel` · `Stripe / RevenueCat` · `Python` · `PyTorch` · `Hugging Face (Transformers, PEFT)` · `vLLM` · `XGBoost / LightGBM` · `Docker` · `GitHub Actions` · `FFmpeg` · LLM tooling (`Claude`, `GPT`, `Gemini`, `DeepSeek`, `OpenRouter`) · generative media (`ElevenLabs`, `Higgsfield`) · `RunPod` (H100 / A100 GPUs) · `Doppler` · testing (`Vitest`, `Playwright`, `pytest`) · evaluation harnesses
+`TypeScript` · `React / React Native (Expo)` · `Next.js` · `Babylon.js` · `Three.js` · `Node` · `Supabase / Postgres` · `Vercel` · `Stripe / RevenueCat` · `Python` · `PyTorch` · `Hugging Face (Transformers, PEFT)` · `vLLM` · `XGBoost / LightGBM` · `Docker` · `GitHub Actions` · `FFmpeg` · LLM tooling (`Claude`, `GPT`, `Gemini`, `DeepSeek`, `OpenRouter`) · generative media (`ElevenLabs`, `Suno`, `Higgsfield`) · `RunPod` (H100 / A100 GPUs) · `Doppler` · testing (`Vitest`, `Playwright`, `pytest`) · evaluation harnesses
 
 ## 📫 Elsewhere
 
 - Field Notes: https://fieldnotestudy.guide
 - Torn Pages: https://www.tornpages.app
+- The Commons Machine: https://open.spotify.com/album/0t4iJzWp6TrZTOfvFZEFEl
 - Portfolio: https://salazar-andy.com
