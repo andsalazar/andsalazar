@@ -43,7 +43,7 @@ Can one model **read another model's weights**, and can a tiny adapter make a la
 
 ## 🛠️ Tools I reach for
 
-`TypeScript` · `React / React Native (Expo)` · `Next.js` · `Babylon.js` · `Node` · `Supabase / Postgres` · `Python` · `Docker` · `FFmpeg` · LLM tooling (`Claude`, `Gemini`, `DeepSeek`, `OpenRouter`) · `RunPod` · `Doppler` · evaluation harnesses & testing
+`TypeScript` · `React / React Native (Expo)` · `Next.js` · `Babylon.js` · `Three.js` · `Node` · `Supabase / Postgres` · `Vercel` · `Stripe / RevenueCat` · `Python` · `PyTorch` · `Hugging Face (Transformers, PEFT)` · `vLLM` · `XGBoost / LightGBM` · `Docker` · `GitHub Actions` · `FFmpeg` · LLM tooling (`Claude`, `GPT`, `Gemini`, `DeepSeek`, `OpenRouter`) · generative media (`ElevenLabs`, `Higgsfield`) · `RunPod` (H100 / A100 GPUs) · `Doppler` · testing (`Vitest`, `Playwright`, `pytest`) · evaluation harnesses
 
 ## 📫 Elsewhere
 
