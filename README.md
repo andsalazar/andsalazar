@@ -43,7 +43,7 @@ Two papers on one question in pilot-wave theory: if a particle is modeled as a l
 
 ## 🛰️ The Entity — a voice AI that answers for my portfolio · *private, access on request*
 
-My portfolio has an AI presence on it: a shader orb that follows the cursor, answers questions about my work and speaks its answers. It can say **only what is written in one record I maintain**, and it says so when the answer isn't there. A **56-question gate** runs before every deploy (grounding, privacy, refusals, prompt injection), a guard on the reply stream blocks prompt leaks, and the site sits behind expiring per-recipient access codes. Measuring where the lag was cut the time to the first spoken word from **2.9s to 1.2s**, and the write-up lists what didn't help as well as what did.
+My portfolio has an AI presence on it: a shader orb that follows the cursor, answers questions about my work and speaks its answers. It can say **only what is written in one record I maintain**, and it says so when the answer isn't there. A **61-question gate** runs before every deploy (grounding, privacy, refusals, prompt injection), a guard on the reply stream blocks prompt leaks, and the site sits behind expiring per-recipient access codes. Measuring where the lag was cut the time to the first spoken word from **2.9s to 1.2s**, and the write-up lists what didn't help as well as what did.
 
 - 💻 Showcase: https://github.com/andsalazar/portfolio-AI-entity-showcase
 - 🔒 Site (access code on request): https://salazar-andy.com
