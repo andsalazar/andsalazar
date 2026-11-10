@@ -12,6 +12,27 @@ A physics app that **rebuilds quantum field theory from a mass on a spring** —
 - 🌐 Website: https://fieldnotestudy.guide
 - 💻 Showcase: https://github.com/andsalazar/field-notes-showcase
 
+## 🔬 Weight-Space Programming — a replication, and what didn't extend
+
+Can one model **read another model's weights**, and can a tiny adapter make a large video model faster? Two published claims, tested on rented GPUs. **One repeated:** given the 23,824 raw weights of a small diffusion model and no tools, GPT-6 Astra named what the model draws — on the paper's networks, on fresh ones trained for the test, and on a shape the paper never used — and declined to guess on a shuffled control. Four cheaper models could not. **One didn't extend:** a 313k-parameter adapter on **Ovi**, an 11.66B video + audio model, was no faster at equal quality across 210 clips. Designs and scoring rules were pushed **before** the runs, the quoted numbers are recomputed from committed evidence by the test suite, and every early result that failed re-measurement is still in the repo with a correction banner.
+
+- 💻 Repo: https://github.com/andsalazar/model-training
+- 📄 Reading weights: https://github.com/andsalazar/model-training/blob/main/docs/stage8-reading-weights.md
+- 📄 The adapter result: https://github.com/andsalazar/model-training/blob/main/docs/stage7-v4-decide.md
+
+## 📉 Quant rebuild — a trading system rebuilt to catch its own mistakes · *paper trading*
+
+My first trading pipeline had an excellent backtest that was **wrong**: a date bug had taught the model the day of the week, and it lost money live. The rebuild is designed so a result like that can't pass quietly — data checks that gate every trade, a **locked holdout used once**, every trial counted, and paper trading compared with its own backtest every day. It is built by a team of AI agents with a read-only reviewer and a guard that keeps them away from the real account. So far **nothing has beaten buying and holding SPY**, and the write-up says so.
+
+- 💻 Showcase: https://github.com/andsalazar/quant-rebuild-showcase
+
+## 🛰️ The Entity — a voice AI that answers for my portfolio · *private, access on request*
+
+My portfolio has an AI presence on it: a shader orb that follows the cursor, answers questions about my work and speaks its answers. It can say **only what is written in one record I maintain**, and it says so when the answer isn't there. A **56-question gate** runs before every deploy (grounding, privacy, refusals, prompt injection), a guard on the reply stream blocks prompt leaks, and the site sits behind expiring per-recipient access codes. Measuring where the lag was cut the time to the first spoken word from **2.9s to 1.2s**, and the write-up lists what didn't help as well as what did.
+
+- 💻 Showcase: https://github.com/andsalazar/portfolio-AI-entity-showcase
+- 🔒 Site (access code on request): https://salazar-andy.com
+
 ## 🎬 Torn Pages — one-shot AI films from public-domain stories · *Live*
 
 Pick a passage from Project Gutenberg and come back to a finished short film. A **director made of code and models** casts the text, writes a treatment, plans the shots, films them, checks its own takes, then scores and masters the film — with nobody approving anything by hand. Every film's page publishes the full record of what the director decided. A Python engine in **Docker**, a static site with standard-library functions on **Vercel + Supabase**, and social cuts rendered and posted by code.
@@ -27,13 +48,6 @@ An isekai action RPG where power is **debt**: skills and gear are loans, interes
 - 🎮 Play in the browser: https://ascendant-rosy.vercel.app
 - 💻 Showcase: https://github.com/andsalazar/ascendant-demo
 
-## 🛰️ The Entity — a voice AI that answers for my portfolio · *private, access on request*
-
-My portfolio has an AI presence on it: a shader orb that follows the cursor, answers questions about my work and speaks its answers. It can say **only what is written in one record I maintain**, and it says so when the answer isn't there. A **56-question gate** runs before every deploy (grounding, privacy, refusals, prompt injection), a guard on the reply stream blocks prompt leaks, and the site sits behind expiring per-recipient access codes. Measuring where the lag was cut the time to the first spoken word from **2.9s to 1.2s**, and the write-up lists what didn't help as well as what did.
-
-- 💻 Showcase: https://github.com/andsalazar/portfolio-AI-entity-showcase
-- 🔒 Site (access code on request): https://salazar-andy.com
-
 ## 🎸 The Commons Machine — a 13-track concept album · *live on streaming*
 
 A concept album released as **American Horse Pirate**: 13 tracks, 67 minutes, **one labor fight per song**, from the 1877 railroad strike to the AI era. It shipped on the **third design**. The first, a dub-punk album with a sung lead and a spoken-word narrator, was built with ElevenLabs and FFmpeg through twelve rounds of auditions and parked in July when the tracks didn't clear the bar. In September one song tested as fast punk worked, so all fourteen were rewritten with the narrator cut and the citations moved to the liner notes. The released album, re-scoped to start in 1877, was generated in **Suno**. It was made end to end with AI tools; the concept, direction and final selection are mine.
@@ -41,20 +55,6 @@ A concept album released as **American Horse Pirate**: 13 tracks, 67 minutes, **
 - 🎧 Spotify: https://open.spotify.com/album/0t4iJzWp6TrZTOfvFZEFEl
 - 🍎 Apple Music: https://music.apple.com/us/album/the-commons-machine/6809263498
 - 💻 Showcase: https://github.com/andsalazar/commons-machine-showcase
-
-## 🔬 Weight-Space Programming — a replication, and what didn't extend
-
-Can one model **read another model's weights**, and can a tiny adapter make a large video model faster? Two published claims, tested on rented GPUs. **One repeated:** given the 23,824 raw weights of a small diffusion model and no tools, GPT-6 Astra named what the model draws — on the paper's networks, on fresh ones trained for the test, and on a shape the paper never used — and declined to guess on a shuffled control. Four cheaper models could not. **One didn't extend:** a 313k-parameter adapter on **Ovi**, an 11.66B video + audio model, was no faster at equal quality across 210 clips. Designs and scoring rules were pushed **before** the runs, the quoted numbers are recomputed from committed evidence by the test suite, and every early result that failed re-measurement is still in the repo with a correction banner.
-
-- 💻 Repo: https://github.com/andsalazar/model-training
-- 📄 Reading weights: https://github.com/andsalazar/model-training/blob/main/docs/stage8-reading-weights.md
-- 📄 The adapter result: https://github.com/andsalazar/model-training/blob/main/docs/stage7-v4-decide.md
-
-## 📉 Quant rebuild — a trading system rebuilt to catch its own mistakes · *paper trading*
-
-My first trading pipeline had an excellent backtest that was **wrong**: a date bug had taught the model the day of the week, and it lost money live. The rebuild is designed so a result like that can't pass quietly — data checks that gate every trade, a **locked holdout used once**, every trial counted, and paper trading compared with its own backtest every day. It is built by a team of AI agents with a read-only reviewer and a guard that keeps them away from the real account. So far **nothing has beaten buying and holding SPY**, and the write-up says so.
-
-- 💻 Showcase: https://github.com/andsalazar/quant-rebuild-showcase
 
 ## 🧪 Other work & experiments
 
