@@ -27,6 +27,14 @@ An isekai action RPG where power is **debt**: skills and gear are loans, interes
 - 🎮 Play in the browser: https://ascendant-rosy.vercel.app
 - 💻 Showcase: https://github.com/andsalazar/ascendant-demo
 
+## 🔬 Weight-Space Programming — a replication, and what didn't extend
+
+Can one model **read another model's weights**, and can a tiny adapter make a large video model faster? Two published claims, tested on rented GPUs. **One repeated:** given the 23,824 raw weights of a small diffusion model and no tools, GPT-6 Astra named what the model draws — on the paper's networks, on fresh ones trained for the test, and on a shape the paper never used — and declined to guess on a shuffled control. Four cheaper models could not. **One didn't extend:** a 313k-parameter adapter on **Ovi**, an 11.66B video + audio model, was no faster at equal quality across 210 clips. Designs and scoring rules were pushed **before** the runs, the quoted numbers are recomputed from committed evidence by the test suite, and every early result that failed re-measurement is still in the repo with a correction banner.
+
+- 💻 Repo: https://github.com/andsalazar/model-training
+- 📄 Reading weights: https://github.com/andsalazar/model-training/blob/main/docs/stage8-reading-weights.md
+- 📄 The adapter result: https://github.com/andsalazar/model-training/blob/main/docs/stage7-v4-decide.md
+
 ## 🧪 Other work & experiments
 
 - **Quant trading pipeline** — the quantitative project that kicked off this whole build arc. [repo →](https://github.com/andsalazar/quant-trading-pipeline)
