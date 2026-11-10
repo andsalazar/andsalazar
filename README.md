@@ -2,7 +2,14 @@
 
 I build at the edge of what AI-assisted development can actually **ship** — probing how far modern tools can take an ambitious idea across very different domains, then turning the ones that work into real products.
 
-That curiosity has run from **quantitative pipelines** → **original research** → a **production consumer app** — with a few deliberate dead ends along the way that taught me where the frontier really is.
+That curiosity has run from **quantitative pipelines** → **original research** → a **production consumer app** → a **playable game** — with a few deliberate dead ends along the way that taught me where the frontier really is.
+
+## ⚔️ ASCENDANT — browser-playable action RPG demo
+
+An isekai action RPG where power is **debt**: skills and gear are loans, interest accrues, and when you can't pay, the Ledger repossesses your memories. Built from scratch in **Babylon.js + TypeScript** — no engine, no editor — with ~2,700 unit tests, a reachability gate that fails the build when code is never called from the running game, and a harness that plays the whole demo in headless Chrome with real mouse and key events.
+
+- 🎮 Play in the browser: https://ascendant-rosy.vercel.app
+- 💻 Showcase: https://github.com/andsalazar/ascendant-demo
 
 ## 🚀 Field Notes — Study Guide · *live on the App Store*
 
@@ -20,7 +27,7 @@ A physics app that **rebuilds quantum field theory from a mass on a spring** —
 
 ## 🛠️ Tools I reach for
 
-`TypeScript` · `React / React Native (Expo)` · `Next.js` · `Node` · `Supabase / Postgres` · `Python` · LLM tooling (`Claude`, `Gemini`) · evaluation harnesses & testing
+`TypeScript` · `React / React Native (Expo)` · `Next.js` · `Babylon.js` · `Node` · `Supabase / Postgres` · `Python` · LLM tooling (`Claude`, `Gemini`) · evaluation harnesses & testing
 
 ## 📫 Elsewhere
 
