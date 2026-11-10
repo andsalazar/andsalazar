@@ -27,6 +27,13 @@ An isekai action RPG where power is **debt**: skills and gear are loans, interes
 - 🎮 Play in the browser: https://ascendant-rosy.vercel.app
 - 💻 Showcase: https://github.com/andsalazar/ascendant-demo
 
+## 🛰️ The Entity — a voice AI that answers for my portfolio · *private, access on request*
+
+My portfolio has an AI presence on it: a shader orb that follows the cursor, answers questions about my work and speaks its answers. It can say **only what is written in one record I maintain**, and it says so when the answer isn't there. A **56-question gate** runs before every deploy (grounding, privacy, refusals, prompt injection), a guard on the reply stream blocks prompt leaks, and the site sits behind expiring per-recipient access codes. Measuring where the lag was cut the time to the first spoken word from **2.9s to 1.2s**, and the write-up lists what didn't help as well as what did.
+
+- 💻 Showcase: https://github.com/andsalazar/portfolio-AI-entity-showcase
+- 🔒 Site (access code on request): https://salazar-andy.com
+
 ## 🎸 The Commons Machine — a 13-track concept album · *live on streaming*
 
 A concept album released as **American Horse Pirate**: 13 tracks, 67 minutes, **one labor fight per song**, from the 1877 railroad strike to the AI era. It shipped on the **third design**. The first, a dub-punk album with a sung lead and a spoken-word narrator, was built with ElevenLabs and FFmpeg through twelve rounds of auditions and parked in July when the tracks didn't clear the bar. In September one song tested as fast punk worked, so all fourteen were rewritten with the narrator cut and the citations moved to the liner notes. The released album, re-scoped to start in 1877, was generated in **Suno**. It was made end to end with AI tools; the concept, direction and final selection are mine.
@@ -64,4 +71,4 @@ My first trading pipeline had an excellent backtest that was **wrong**: a date b
 - Field Notes: https://fieldnotestudy.guide
 - Torn Pages: https://www.tornpages.app
 - The Commons Machine: https://open.spotify.com/album/0t4iJzWp6TrZTOfvFZEFEl
-- Portfolio: https://salazar-andy.com
+- Portfolio (private, access code on request): https://salazar-andy.com
