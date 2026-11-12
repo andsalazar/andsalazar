@@ -71,6 +71,13 @@ A concept album released as **American Horse Pirate**: 13 tracks, 67 minutes, **
 - 🍎 Apple Music: https://music.apple.com/us/album/the-commons-machine/6809263498
 - 💻 Showcase: https://github.com/andsalazar/commons-machine-showcase
 
+## 🤖 PocketBot — a home robot you print, slot together and talk to · *in design, not built yet*
+
+A design for a small home robot that drives itself around the floor and holds a spoken conversation: **15 printed pieces and three screws**, held together by joints adapted from Japanese woodwork. The 3D model, the dimensioned drawings, the wiring diagram and the parts list are generated from one data file with twelve automated layout checks, and the safety design is a split in which **a language model can ask the robot to move but cannot drive a motor**. This one is a work in progress: the interactive blueprint and some printed joint trials exist, and **no robot has moved yet**. The write-up says what has and has not been tested.
+
+- 🧩 Interactive blueprint: https://pocketbot-rho.vercel.app
+- 💻 Showcase: https://github.com/andsalazar/pocketbot-showcase
+
 ## 🧪 Other work & experiments
 
 - **Quant trading pipeline (first attempt, archived)** — the quantitative project that kicked off this whole build arc. Its headline backtest did not hold up, and the README now opens with the correction. [repo →](https://github.com/andsalazar/quant-trading-pipeline)
@@ -86,3 +93,4 @@ A concept album released as **American Horse Pirate**: 13 tracks, 67 minutes, **
 - Portfolio (private, access code on request): https://salazar-andy.com
 - Torn Pages: https://www.tornpages.app
 - The Commons Machine: https://open.spotify.com/album/0t4iJzWp6TrZTOfvFZEFEl
+- PocketBot blueprint (in design): https://pocketbot-rho.vercel.app
